@@ -1,0 +1,12 @@
+{
+  "name": "fullstack-frontend",
+  "version": "1.0.0",
+  "description": "Express frontend for Flask full-stack application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
