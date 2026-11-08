@@ -2,7 +2,7 @@ services:
   backend:
     build:
       context: ./backend
-    image: mahira123/fullstack-flask-backend:1.0
+    image: mahira2005/fullstack-flask-backend:1.0
     container_name: flask-backend
     restart: unless-stopped
     ports:
@@ -11,7 +11,7 @@ services:
   frontend:
     build:
       context: ./frontend
-    image: mahira123/fullstack-express-frontend:1.0
+    image: mahira2005/fullstack-express-frontend:1.0
     container_name: express-frontend
     restart: unless-stopped
     environment:
